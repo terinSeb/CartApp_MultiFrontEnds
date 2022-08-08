@@ -21,5 +21,5 @@ const devConfig = {
         }),
     ],
 };
-//Exports merged
+//Exports 
 module.exports = merge(commonConfig, devConfig);
