@@ -21,5 +21,5 @@ const devConfig = {
         }),
     ],
 };
-//Exports merged file
+//Exports the comment has been changed
 module.exports = merge(commonConfig, devConfig);
