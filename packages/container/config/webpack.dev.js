@@ -21,5 +21,5 @@ const devConfig = {
         }),
     ],
 };
-//Exports the
+// This is a Sample Code
 module.exports = merge(commonConfig, devConfig);
