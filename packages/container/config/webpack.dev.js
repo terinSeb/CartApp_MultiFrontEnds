@@ -21,5 +21,5 @@ const devConfig = {
         }),
     ],
 };
-// Sample Comment
+// The conatiner was changed.
 module.exports = merge(commonConfig, devConfig);
