@@ -21,5 +21,5 @@ const devConfig = {
         }),
     ],
 };
-//Comment sample
+//Comment
 module.exports = merge(commonConfig, devConfig);
