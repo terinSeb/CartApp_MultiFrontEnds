@@ -12,7 +12,7 @@ const mount = (el, { onSignIn, onNavigate, defaultHistory, initialPath }) => {
     }
     ReactDOM.render(<App onSignIn={onSignIn} history={history} />, el);
     return {
-        onParentNavigation({ pathname: nextPathname }) {
+        onParentNavigate({ pathname: nextPathname }) {
             const { pathname } = history.location;
             if (pathname !== nextPathname)
                 history.push(nextPathname);
